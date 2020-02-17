@@ -2,6 +2,7 @@
 
 ## Installation
 1. Install the AWS CLI. Even though we aren't going to be working with "real" AWS, we'll use this to talk to our local docker containers.
+https://aws.amazon.com/cli/
 
 2. Once the AWS CLI is installed, run aws configure to create some credentials. Even though we're talking to our "fake" local service, we still need credentials. You can enter real credentials, or dummy ones. Localstack requires that these details are present, but doesn't actually validate them.
 
